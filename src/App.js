@@ -2,7 +2,9 @@ import './App.css';
 import Boton from './componentes/Boton';
 import Pantalla from './componentes/Pantalla';
 import BotonClear from './componentes/BotonClear';
+import BotonAtras from './componentes/BotonAtras';
 import Modal from './componentes/Modal';
+import imagenAtras from './img/arrow-bar-left.svg';
 import { useState } from 'react';
 import { evaluate } from 'mathjs';
 
@@ -28,6 +30,21 @@ function App() {
 
   const [visibilidad, setVisibilidad] = useState('none');
   const [blur, setBlur] = useState('blur(0px)')
+
+  const volverAtras = () => {
+
+    try {
+      let resultArray = input.split('');
+      resultArray.pop();
+      resultArray = resultArray.join('');
+      setInput(resultArray);
+    } catch (error) {
+      setVisibilidad('flex');
+      setBlur('blur(10px)')
+    }
+
+
+  };
 
 
   return (
@@ -57,13 +74,16 @@ function App() {
           <Boton manejarClic={agregarInput}>*</Boton>
         </div>
         <div className='fila'>
-          <Boton manejarClic={calcularResultado}>=</Boton>
+          <BotonAtras
+            nombre={imagenAtras}
+            funcion={volverAtras} />
           <Boton manejarClic={agregarInput}>0</Boton>
           <Boton manejarClic={agregarInput}>.</Boton>
           <Boton manejarClic={agregarInput}>/</Boton>
         </div>
         <div className='fila'>
           <BotonClear manejarClear={() => setInput('')}>Borrar</BotonClear>
+          <Boton manejarClic={calcularResultado}>=</Boton>
         </div>
       </div>
     </div>

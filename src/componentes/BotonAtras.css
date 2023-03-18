@@ -1,4 +1,4 @@
-.boton-contenedor{
+.boton-atras{
     width: 83px;
     height: 83px;
     display: flex;
@@ -6,7 +6,7 @@
     align-items: center;
     font-weight: bold;
     font-size: 38px;
-    background-color: #1b1b32;
+    background-color: #00471b;
     color: #fff;
     border-radius: 25px;
     border: 2px solid #fff;
@@ -17,21 +17,18 @@
     box-shadow: 0px 0px 10px black;
 }
 
-.boton-contenedor:hover{
-    background-color: #5a01a7;
+.boton-atras:hover{
+    background-color: #ff6600;
     box-shadow: inset 0px 0px 20px 1px black;
     transform: scale(1.02);
     box-shadow: inset 0px 0px 20px 1px black, 0px 5px 10px black;
 }
 
-.boton-contenedor:active{
+.boton-atras:active{
     transform: scale(0.95);
 }
 
-.operador{
-    background-color: #00471b;
-}
-
-.operador:hover{
-    background-color: #ff6600;
+.imagen-atras{
+    filter: invert();
+    width: 35px;
 }

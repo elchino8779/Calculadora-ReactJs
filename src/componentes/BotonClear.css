@@ -1,10 +1,10 @@
 .boton-clear{
-    height: 80px;
+    width: 272px;
+    height: 83px;
     font-size: 1.6em;
     display: flex;
-    flex: 1;
     background-color: #ac0246;
-    margin-top: 8px;
+    margin: 4px;
     justify-content: center;
     align-items: center;
     font-weight: bold;
