@@ -5,14 +5,14 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    font-size: 30px;
-    background-color: #16163f;
-    color: #ffffff;
+    font-size: 35px;
+    background-color: #6c936b;
+    color: #000;
     padding: 11px 30px 11px 11px;
     border: 1px solid #888;
     box-shadow: -1px 2px 5px 1px #fff;
     word-break: break-all;
     transition: 0.2s linear;
-    text-shadow: 0px 0px 10px #000;
 }
