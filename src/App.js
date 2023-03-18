@@ -2,7 +2,7 @@ import './App.css';
 import Boton from './componentes/Boton';
 import Pantalla from './componentes/Pantalla';
 import BotonClear from './componentes/BotonClear';
-import freeCodeCampLogo from './imagenes/freecodecamp-logo.png'
+import Modal from './componentes/Modal';
 import { useState } from 'react';
 import { evaluate } from 'mathjs';
 
@@ -16,21 +16,28 @@ function App() {
 
   const calcularResultado = () => {
 
-    if(input){
-    setInput(evaluate(input));
+    if (input) {
+      try {
+        setInput(evaluate(input))
+      } catch (error) {
+        setVisibilidad('flex');
+        setBlur('blur(10px)')
+      };
     };
   }
+
+  const [visibilidad, setVisibilidad] = useState('none');
+  const [blur, setBlur] = useState('blur(0px)')
 
 
   return (
     <div className='App'>
 
-      <div className='freecodecamp-logo-contenedor'>
-        <img src={freeCodeCampLogo} className='freecodecamp-logo' alt='Logo de freecodecamp' />
-      </div>
+      <Modal display={visibilidad} clic={() => { setVisibilidad('none', setBlur('blur(0px)')) }} />
 
-      <div className='contenedor-calculadora'>
-        <Pantalla input={input}/>
+      <div className='contenedor-calculadora' style={{ filter: blur }}>
+
+        <Pantalla input={input} />
         <div className='fila'>
           <Boton manejarClic={agregarInput}>1</Boton>
           <Boton manejarClic={agregarInput}>2</Boton>
@@ -56,7 +63,7 @@ function App() {
           <Boton manejarClic={agregarInput}>/</Boton>
         </div>
         <div className='fila'>
-          <BotonClear manejarClear={() => setInput('')}>Clear</BotonClear>
+          <BotonClear manejarClear={() => setInput('')}>Borrar</BotonClear>
         </div>
       </div>
     </div>
