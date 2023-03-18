@@ -2,7 +2,6 @@ import './App.css';
 import Boton from './componentes/Boton';
 import Pantalla from './componentes/Pantalla';
 import BotonClear from './componentes/BotonClear';
-import BotonAtras from './componentes/BotonAtras';
 import Modal from './componentes/Modal';
 import imagenAtras from './img/arrow-bar-left.svg';
 import { useState } from 'react';
@@ -74,9 +73,7 @@ function App() {
           <Boton manejarClic={agregarInput}>*</Boton>
         </div>
         <div className='fila'>
-          <BotonAtras
-            nombre={imagenAtras}
-            funcion={volverAtras} />
+        <Boton manejarClic={volverAtras}><img className='imagen-atras' src={imagenAtras} alt="atras" /></Boton>
           <Boton manejarClic={agregarInput}>0</Boton>
           <Boton manejarClic={agregarInput}>.</Boton>
           <Boton manejarClic={agregarInput}>/</Boton>
