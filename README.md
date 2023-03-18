@@ -29,11 +29,11 @@
     <br>
     <h2> 📷 Capturas:</h2>
     <br>
-    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Calculadora%20React/imagen-01.png?raw=true" alt="Cap1" width="700">
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Calculadora%20React/imagen-01.png?raw=true" alt="Cap1" width="500">
     <br>
     <br>
-    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Calculadora%20React/imagen-02.png?raw=true" alt="Cap2" width="700">
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Calculadora%20React/imagen-02.png?raw=true" alt="Cap2" width="500">
     <br>
     <br>
-    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Calculadora%20React/imagen-03.png?raw=true" alt="Cap3" width="700">
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Calculadora%20React/imagen-03.png?raw=true" alt="Cap3" width="500">
 </div>
