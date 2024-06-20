@@ -7,9 +7,9 @@
 <div id="datos">
     <h3>✔️ Datos:</h3>
     <p>
-	🔹 Este proyecto fue creado para la plataforma freeCodeCamp <br>
-        🔹 Desarrollado con principios de ReactJs <br>
-        🔹 Calculadora con las 4 operaciones básicas <br>
+	🔹 Este proyecto fue creado para la plataforma freeCodeCamp<br>
+        🔹 Desarrollado con principios de ReactJs<br>
+        🔹 Calculadora con las 4 operaciones básicas<br>
     </p>
 </div>
 
