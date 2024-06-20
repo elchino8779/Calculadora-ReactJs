@@ -1,39 +1,38 @@
 <div id="titulo" align="center">
-    <h1 align="center">Calculadora ReactJs</h1>
+    <h1>Calculadora ReactJs</h1>
 </div>
 
 ---
 
-<div id="Caracteristicas" align="center">
-    <h2 align="center"> 🛠️ Especificaciones:</h2>
-    <h3>
-        Este proyecto fue creado para la plataforma freeCodeCamp<br>
-        Desarrollado totalmente en ReactJs<br>
-        Calculadora con las 4 operaciones basicas<br>
-    </h3>
+<div id="datos">
+    <h3>✔️ Datos:</h3>
+    <p>
+	🔹 Este proyecto fue creado para la plataforma freeCodeCamp <br>
+        🔹 Desarrollado con principios de ReactJs <br>
+        🔹 Calculadora con las 4 operaciones básicas <br>
+    </p>
 </div>
 
 ---
 
-<div id="datos" align="center">
-    <h2>💾 Datos:</h2>
-    <br>
-        Suma, resta, multiplicaion y division<br>
-        Manejo de errores de operaciones<br>
-        Boton borrar y atras<br>
+<div id="características">
+    <h3>⚙️ Características:</h3>
+    <p>
+        🔸 Suma, resta, multiplicación y division <br>
+        🔸 Manejo de errores de operaciones <br>
+        🔸 Botón borrar y atrás <br>
+    </p>
 </div>
 
 ---
 
 <div id="capturas" align="center">
+    <h3 align="left"> 📷 Capturas:</h3>
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/CalculadoraReact/img01.png?raw=true" alt="Cap1" width="800">
     <br>
-    <h2> 📷 Capturas:</h2>
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/CalculadoraReact/img02.png?raw=true" alt="Cap2" width="800">
     <br>
-    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Calculadora%20React/imagen-01.png?raw=true" alt="Cap1" width="500">
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/CalculadoraReact/img03.png?raw=true" alt="Cap3" width="800">
     <br>
-    <br>
-    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Calculadora%20React/imagen-02.png?raw=true" alt="Cap2" width="500">
-    <br>
-    <br>
-    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Calculadora%20React/imagen-03.png?raw=true" alt="Cap3" width="500">
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/CalculadoraReact/img04.png?raw=true" alt="Cap4" width="800">
 </div>
